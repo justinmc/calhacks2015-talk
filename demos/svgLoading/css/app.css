@@ -1,0 +1,52 @@
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+svg {
+  margin: 0 auto;
+}
+
+.loading {
+  fill: #afafaf;
+  cy: 100;
+  r: 20;
+  animation: loading 2s ease-in-out infinite;
+}
+
+@keyframes loading {
+    0%   {
+      cx: -20;
+    }
+    10% {
+      cx: 100;
+      cy: 100;
+    }
+    20% {
+      cx: 100;
+      cy: 50;
+    }
+    30% {
+      cx: 100;
+      cy: 100;
+    }
+    40% {
+      cx: 100;
+      cy: 50;
+    }
+    50% {
+      cx: 100;
+      cy: 100;
+    }
+    60% {
+      cx: 100;
+      cy: 50;
+    }
+    70% {
+      cx: 100;
+      cy: 100;
+    }
+    100% {
+      cx: 1000;
+    }
+}

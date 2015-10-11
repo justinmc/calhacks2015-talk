@@ -23,8 +23,6 @@ function render(ctx, t, keys, pos) {
 
   ctx.fillStyle = 'rgb(0, 100, 200)';
   ctx.fillRect(pos.x, pos.y, 55, 50);
-  //ctx.arc(20, 20, 12, 0, 2 * Math.PI);
-  //ctx.fill();
 
   requestAnimationFrame(function() {
     render(ctx, t + dt, keys, pos);

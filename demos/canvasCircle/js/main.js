@@ -5,6 +5,6 @@ window.onload = function onload() {
 
   const ctx = canvas.getContext('2d');
 
-  ctx.fillStyle = 'rgb(0, 100, 200)';
-  ctx.fillRect(Math.round(Math.random() * 10), 10, 55, 50);
+  ctx.arc(100, 100, 50, 0, 2 * Math.PI);
+  ctx.fill();
 };
